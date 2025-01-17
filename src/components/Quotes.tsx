@@ -1,8 +1,6 @@
-import React from 'react';
 
-type Props = {}
 
-const Quotes = (props: Props) => {
+const Quotes = () => {
     return (
         <>
             <div className='container py-6 px-4'>
