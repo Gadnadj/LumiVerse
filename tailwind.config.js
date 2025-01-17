@@ -13,7 +13,7 @@ export default {
         dark: '#111111'
       },
       fontFamily: {
-        
+        parisienne: ['Parisienne', 'cursive']
       },
       container: {
         center: true,
