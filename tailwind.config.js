@@ -4,25 +4,22 @@ export default {
     './index.html',
     './src/**/*.{js,ts,jsx,tsx}'
   ],
+  darkMode: 'class',
   theme: {
     extend: {
       colors: {
-        primary: '#E83667',
-        primaryDark: '#BB2C51',
-        secondary: '#21D4B9',
-        dark: '#303030'
+        primary: '#00C2FF',
+        secondary: '#DD0BFF',
+        dark: '#111111'
       },
       fontFamily: {
-        inter: ['Inter', 'sans-serif'],
-        cursive: ['Ephesis', 'cursive']
+        montserrat: ['Montserrat', 'sans-serif']
       },
       container: {
         center: true,
         padding: {
           DEFAULT: '1rem',
-          sm: '2rem',
-          lg: '3rem',
-          xl: '4rem'
+          sm: '3rem'
         }
       }
     }

@@ -1,4 +1,4 @@
-import logo from '../../assets/logo.png';
+import logo from '../assets/logo.png';
 import { IoIosMoon } from 'react-icons/io';
 
 
@@ -17,9 +17,9 @@ const namesLink = [
     }
 ];
 
-const NavBar = () => {
+const NabBar = () => {
     return (
-        <div className="container flex justify-between">
+        <div className="container flex justify-between mt-40">
             {/* Logo + image */}
             <div className='flex items-center gap-2'>
                 <img src={logo} className='size-16 sm:size-24' />
@@ -43,4 +43,4 @@ const NavBar = () => {
     );
 };
 
-export default NavBar;
+export default NabBar;
