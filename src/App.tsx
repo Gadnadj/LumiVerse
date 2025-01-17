@@ -1,3 +1,4 @@
+import Banner from './components/Banner';
 import Hero from './components/Hero';
 import NavBar from './components/NavBar';
 import Quotes from './components/Quotes';
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Hero />
       <Quotes />
+      <Banner />
     </main>
   );
 }
