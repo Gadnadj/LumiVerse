@@ -13,7 +13,7 @@ export default {
         dark: '#111111'
       },
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif']
+        
       },
       container: {
         center: true,
