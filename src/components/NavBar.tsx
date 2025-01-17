@@ -2,6 +2,7 @@ import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi';
 import logo from '../assets/logo.png';
 import { IoIosMoon } from 'react-icons/io';
 import { useState } from 'react';
+import DarkMode from './DarkMode';
 
 const NavLinks = [
     {
@@ -32,7 +33,7 @@ const NavBar = () => {
     const toogleMenu = () => setShowMenu(!showMenu);
 
     return (
-        <div>
+        <div className='relative z-[9999] text-black dark:text-white duration-300'>
             <div className='container py-2 md:py-0'>
                 <div className='flex justify-between'>
                     {/* logo section */}
@@ -55,11 +56,16 @@ const NavBar = () => {
                                     </li>
                                 );
                             })}
+
+                            {/* Darkmode feature  */}
+                            <DarkMode />
                         </ul>
                     </nav>
 
                     {/* Mobile View SideBar */}
-                    <div className=' md:hidden flex items-center'>
+                    <div className=' md:hidden flex items-center gap-2'>
+                        <DarkMode />
+
                         {
                             showMenu ? <HiMenuAlt1 onClick={toogleMenu} className='cursor-pointer' size={30} /> : <HiMenuAlt3 onClick={toogleMenu} className='cursor-pointer' size={30} />
                         }
