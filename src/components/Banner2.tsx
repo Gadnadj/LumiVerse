@@ -1,19 +1,18 @@
 import { BiPlayCircle } from 'react-icons/bi';
-import banner1 from '../assets/banner1.png';
+import banner2 from '../assets/banner2.png';
 
-const Banner = () => {
+const Banner2 = () => {
     return (
         <>
             <div className='py-12 sm:py-0 relative'>
-                <div className='container min-h-[620px] flex items-center'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 palce-items-center'>
+                <div className='container min-h-[620px] flex items-center '>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
                         {/* image section */}
-                        <div>
-                            <img src={banner1} className='w-full' />
+                        <div className='order-1 sm:order-2'>
+                            <img src={banner2} className='w-full max-w-[400px]' />
                         </div>
-
                         {/* text content section */}
-                        <div className='space-y-5 lg:pr-20'>
+                        <div className='space-y-5 lg:pr-20 order-2 sm:order-1'>
                             <h1 className='text-4xl font-semibold'>
                                 GET READY TO ENJOY VR
                                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATEFORM</span>
@@ -30,4 +29,4 @@ const Banner = () => {
     );
 };
 
-export default Banner;
+export default Banner2;
