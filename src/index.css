@@ -2,3 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+.animated-wrapper {
+  animation-name: move-wrapper;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: 'ease-in-out';
+  animation-fill-mode: forwards;
+  position: absolute;
+}
+
+@keyframes move-wrapper {
+  0% {
+    transform: translate(150%, 30%) rotate(0) scale(0.8);
+  }
+  50% {
+    transform: translate(60vh, 0vh) rotate(150deg) scale(1.2);
+  }
+  to {
+    transform: translate(40vh, 40vh) rotate(0def) scale(0.8);
+  }
+}

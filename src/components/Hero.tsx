@@ -12,7 +12,7 @@ const Hero = (props: Props) => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center relative z-10">
 
                         {/* hero text section */}
-                        <div className='space-y-4 lg:pr-2'>
+                        <div className='max-sm:order-1 space-y-4 lg:pr-20'>
                             <h1 className='text-4xl font-semibold'>
                                 GET READY TO ENJOY VR
                                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATEFORM</span>
@@ -34,9 +34,17 @@ const Hero = (props: Props) => {
                         </div>
 
                         {/* img section */}
-                        <div>
-                            <img src={HeroPng} alt="" />
+                        <div lang='order-1 sm:order-2'>
+                            <img
+                                src={HeroPng}
+                                className='max-h-[600px] rounded-3xl'
+                            />
                         </div>
+                    </div>
+
+                    {/* Animate Blob */}
+                    <div className='h-[300px] w-[300px] bg-gradient-to-r from-primary to-secondary rounded-full absolute top-0 left-0 blur-3xl animated-wrapper'>
+
                     </div>
                 </div>
             </div>
