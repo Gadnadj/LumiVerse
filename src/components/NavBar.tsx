@@ -34,7 +34,7 @@ const NavBar = () => {
 
     return (
         <div className='relative z-[9999] text-black dark:text-white duration-300'>
-            <div className='container py-2 md:py-0'>
+            <div className='container py-1 md:py-0'>
                 <div className='flex justify-between'>
                     {/* logo section */}
                     <div className='flex items-center gap-3'>
