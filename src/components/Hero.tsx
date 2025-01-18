@@ -13,20 +13,31 @@ const Hero = (props: Props) => {
 
                         {/* hero text section */}
                         <div className='max-sm:order-1 space-y-4 lg:pr-20'>
-                            <h1 className='text-4xl font-semibold'>
+                            <h1
+                                data-aos='fade-up'
+                                className='text-4xl font-semibold'>
                                 GET READY TO ENJOY VR
                                 <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATEFORM</span>
                             </h1>
-                            <p className='text-justify max-w-[520px]'>
+                            <p
+                                data-aos='fade-up'
+                                data-aos-delay='300'
+                                className='text-justify max-w-[520px]'>
                                 Venez decouvrir le monde incroyable de la realite virtuelle. Plongee dans un tout nouvelle universe complemetement
                                 nouveau qui va vous faire retourner la tete avec ses nouvelles technologie de sensitivite
                             </p>
 
-                            <div className='flex items-center gap-6'>
-                                <button className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
+                            <div className='flex items-center gap-6 '>
+                                <button
+                                    data-aos='fade-up'
+                                    data-aos-delay='500'
+                                    className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
                                     Get Started
                                 </button>
-                                <button className='flex items-center gap-2'>
+                                <button
+                                    data-aos='fade-up'
+                                    data-aos-delay='700'
+                                    className='flex items-center gap-2'>
                                     <BiPlayCircle className='text-3xl' />
                                     <span className='text-lg'>See Demo</span>
                                 </button>
@@ -36,6 +47,8 @@ const Hero = (props: Props) => {
                         {/* img section */}
                         <div lang='order-1 sm:order-2'>
                             <img
+                                data-aos='zoom-in'
+                                data-aos-delay='500'
                                 src={HeroPng}
                                 className='max-h-[600px] rounded-3xl'
                             />
