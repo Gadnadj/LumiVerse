@@ -5,23 +5,36 @@ const Banner = () => {
     return (
         <>
             <div className='py-12 sm:py-0 relative'>
-                <div className='container min-h-[620px] flex items-center'>
-                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 palce-items-center'>
+                <div className='container min-h-[620px] flex items-center justify-center'>
+                    <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
                         {/* image section */}
                         <div>
-                            <img src={banner1} className='w-full' />
+                            <img src={banner1} />
                         </div>
 
                         {/* text content section */}
-                        <div className='space-y-5 lg:pr-20'>
+                        <div className='space-y-5 lg:pr-20 relative'>
                             <h1 className='text-4xl font-semibold'>
                                 GET READY TO ENJOY VR
-                                <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATEFORM</span>
+                                <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATFORM</span>
                             </h1>
                             <p className='text-justify max-w-[520px]'>
-                                Venez decouvrir le monde incroyable de la realite virtuelle. Plongee dans un tout nouvelle universe complemetement
-                                nouveau qui va vous faire retourner la tete avec ses nouvelles technologie de sensitivite
+                                Venez découvrir le monde incroyable de la réalité virtuelle. Plongez dans un tout nouvel univers complètement
+                                nouveau qui va vous faire tourner la tête avec ses nouvelles technologies de sensibilité.
                             </p>
+                            <div className='flex items-center gap-6'>
+                                <button className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
+                                    Get Started
+                                </button>
+                                <button className='flex items-center gap-2'>
+                                    <BiPlayCircle className='text-3xl' />
+                                    <span className='text-lg'>See Demo</span>
+                                </button>
+                            </div>
+
+                            {/* background color blob */}
+                            <div className='h-[300px] w-[300px] bg-gradient-to-r from-primary to-secondary rounded-full absolute bottom-[-50px] left-[300px] blur-3xl opacity-50'>
+                            </div>
                         </div>
                     </div>
                 </div>
