@@ -3,30 +3,30 @@ import { GiNotebook } from 'react-icons/gi';
 
 const FeaturesData = [
     {
-        name: 'Captivating Videos',
+        name: 'Immersive VR Experiences',
         icon: (
             < FaCameraRetro className='text-5xl text-primary group-hover:text-black duration-300' />
         ),
         link: '#',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
+        description: 'Dive into a world of captivating virtual reality adventures that bring your favorite games to life.',
         aosDelay: '0'
     },
     {
-        name: 'Safe Transactions',
+        name: 'Secure and Seamless Transactions',
         icon: (
             < GiNotebook className='text-5xl text-primary group-hover:text-black duration-300' />
         ),
         link: '#',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
+        description: 'Enjoy peace of mind with our robust and user-friendly transaction system designed for safety and simplicity.',
         aosDelay: '500'
     },
     {
-        name: 'Experience Reality',
+        name: 'Unparalleled Realism',
         icon: (
             < GiNotebook className='text-5xl text-primary group-hover:text-black duration-300' />
         ),
         link: '#',
-        description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit.',
+        description: 'Experience cutting-edge realism that pushes the boundaries of what’s possible in virtual gaming.',
         aosDelay: '1000'
     }
 ];

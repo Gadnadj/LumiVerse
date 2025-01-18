@@ -11,7 +11,10 @@ const AppStore = () => {
                     <p
                         data-aos='fade-up'
                         data-aos-delay='300'
-                        className='text-center sm:px-20'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique magnam hardum accusantium odit?</p>
+                        className='text-center sm:px-20'>
+                        Discover an all-in-one solution designed to elevate your gaming experience.
+                        Download now and unlock a world of immersive possibilities.
+                    </p>
                     <div className='flex flex-wrap items-center justify-center gap-4'>
                         <a href="#">
                             <img

@@ -20,8 +20,8 @@ const Hero = () => {
                                 data-aos='fade-up'
                                 data-aos-delay='300'
                                 className='text-justify max-w-[520px]'>
-                                Venez decouvrir le monde incroyable de la realite virtuelle. Plongee dans un tout nouvelle universe complemetement
-                                nouveau qui va vous faire retourner la tete avec ses nouvelles technologie de sensitivite
+                                Immerse yourself in a revolutionary gaming experience that takes you beyond reality, where cutting-edge virtual
+                                reality technology transforms the way you play, explore, and connect in breathtakingly immersive worlds!
                             </p>
 
                             <div className='flex items-center gap-6 '>

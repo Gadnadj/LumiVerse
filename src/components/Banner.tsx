@@ -22,15 +22,17 @@ const Banner = () => {
                                     data-aos='fade-up'
                                     data-aos-delay='300'
                                     className='text-4xl font-semibold'>
-                                    GET READY TO ENJOY VR
-                                    <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATFORM</span>
+                                    "Prepare to be amazed by the world of VR
+
+                                    <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> Games on Our Cutting-Edge Platform</span>
                                 </h1>
                                 <p
                                     data-aos='fade-up'
                                     data-aos-delay='500'
                                     className='text-justify max-w-[520px]'>
-                                    Venez découvrir le monde incroyable de la réalité virtuelle. Plongez dans un tout nouvel univers complètement
-                                    nouveau qui va vous faire tourner la tête avec ses nouvelles technologies de sensibilité.
+                                    Step into the extraordinary world of virtual reality and explore breathtaking new dimensions.
+                                    Dive into a revolutionary universe that will leave you in awe with its cutting-edge
+                                    sensory technologies, redefining the way you experience gaming and entertainment.
                                 </p>
                                 <div className='flex items-center gap-6'>
                                     <button

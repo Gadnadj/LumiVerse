@@ -1,5 +1,4 @@
 import { FaFacebook, FaInstagram, FaLinkedin, FaLocationArrow, FaMobileAlt } from 'react-icons/fa';
-
 const FooterLinks = [
     {
         id: 1,
@@ -35,34 +34,33 @@ const Footer = () => {
                         {/* company details */}
                         <div className='py-8 px-4'>
                             <h1 className='sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif'>LumiVerse</h1>
-                            <p className='text-sm'>Lorem, ipsum dolor sit amet consctutru adipsing etli. RApelleta dorlor illu a aut itst expedit.</p>
+                            <p className='text-sm'>Explore new dimensions with LumiVerse, your gateway to innovative virtual experiences. Join us and embrace the future today.</p>
                             <br />
 
                             {/* contac section */}
                             <div>
                                 <div className='flex items-center gap-3'>
                                     <FaLocationArrow />
-                                    <p>Moida, Uttar Pradseh</p>
+                                    <p>Haifa, Israel</p>
                                 </div>
                                 <div className='flex items-center gap-3'>
                                     <FaMobileAlt />
-                                    <p>0586305529</p>
+                                    <p>+972586305529</p>
                                 </div>
                             </div>
 
                             {/* social handle */}
                             <div className='flex items-center gap-3 mt-6'>
-                                <a href="#">
-                                    <FaFacebook className='text-3xl hover:text-primary duration-300' />
-                                </a>
-                                <a href="#">
-                                    <FaInstagram className='text-3xl hover:text-secondary duration-300' />
-                                </a>
-                                <a href="#">
+                                <a href='https://www.linkedin.com/in/gad-nadjar/' target='_blank' rel='noopener noreferrer'>
                                     <FaLinkedin className='text-3xl hover:text-primary duration-300' />
                                 </a>
+                                <a href='https://www.facebook.com/gad.nadjar' target='_blank' rel='noopener noreferrer'>
+                                    <FaFacebook className='text-3xl hover:text-primary duration-300' />
+                                </a>
+                                <a href='https://www.instagram.com/gadnadj/' target='_blank' rel='noopener noreferrer'>
+                                    <FaInstagram className='text-3xl hover:text-secondary duration-300' />
+                                </a>
                             </div>
-
                         </div>
 
                         {/* Footer Links section */}
