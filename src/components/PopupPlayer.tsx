@@ -1,8 +1,12 @@
 import React from 'react';
 
-type Props = {}
+type Props = {
+    isPlay: boolean;
+    setIsPlay: React.Dispatch<React.SetStateAction<boolean>>;
 
-const PopupPlayer = (props: Props) => {
+}
+
+const PopupPlayer = ({ isPlay, setIsPlay }: Props) => {
     return (
         <div>PopupPlayer</div>
     );

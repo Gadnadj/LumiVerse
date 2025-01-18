@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import AppStore from './components/AppStore';
 import Banner from './components/Banner';
 import Banner2 from './components/Banner2';
@@ -10,6 +11,10 @@ import Quotes from './components/Quotes';
 
 
 function App() {
+  const [isPlay, setIsPlay] = useState<boolean>(false);
+  const tooglePlay = () => {
+    setIsPlay(true);
+  };
 
   return (
     <main className='overflow-x-hidden overflow-y-hidden bg-white dark:bg-black text-black dark:text-white duration-500'>
@@ -23,7 +28,7 @@ function App() {
       <Footer />
 
       {/* Video Player */}
-      <PopupPlayer />
+      <PopupPlayer isPlay={isPlay} setIsPlay={setIsPlay} />
     </main>
   );
 }
