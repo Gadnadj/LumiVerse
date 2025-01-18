@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import AppStore from './components/AppStore';
 import Banner from './components/Banner';
 import Banner2 from './components/Banner2';

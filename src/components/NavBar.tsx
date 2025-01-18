@@ -1,6 +1,5 @@
 import { HiMenuAlt1, HiMenuAlt3 } from 'react-icons/hi';
 import logo from '../assets/logo.png';
-import { IoIosMoon } from 'react-icons/io';
 import { useState } from 'react';
 import DarkMode from './DarkMode';
 
