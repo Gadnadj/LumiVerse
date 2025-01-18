@@ -1,10 +1,7 @@
-import { FaRegPlayCircle } from 'react-icons/fa';
 import HeroPng from '../assets/hero.png';
 import { BiPlayCircle } from 'react-icons/bi';
 
-type Props = {}
-
-const Hero = (props: Props) => {
+const Hero = () => {
     return (
         <>
             <div className='py-12 sm:py-0 dark:bg-black dark:text-white duration-300 overflow-hidden'>
@@ -12,7 +9,7 @@ const Hero = (props: Props) => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 place-items-center relative z-10">
 
                         {/* hero text section */}
-                        <div className='max-sm:order-1 space-y-4 lg:pr-20'>
+                        <div className='max-sm:order-1 space-y-4 lg:pr-20 relative z-30'>
                             <h1
                                 data-aos='fade-up'
                                 className='text-4xl font-semibold'>

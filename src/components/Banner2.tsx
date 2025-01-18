@@ -9,24 +9,39 @@ const Banner2 = () => {
                     <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 place-items-center'>
                         {/* image section */}
                         <div className='order-1 sm:order-2 relative'>
-                            <img src={banner2} className='w-full max-w-[400px]' />
+                            <img
+                                data-aos='zoom-in'
+                                data-aos-delay='500'
+                                src={banner2} className='w-full max-w-[400px]' />
                         </div>
                         {/* text content section */}
                         <div className='space-y-5 lg:pr-20 order-2 sm:order-1'>
                             <div className='relative z-10 space-y-5'>
-                                <h1 className='text-4xl font-semibold'>
+                                <h1
+                                    data-aos='fade-up'
+                                    data-aos-delay='300'
+                                    className='text-4xl font-semibold'>
                                     GET READY TO ENJOY VR
                                     <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATEFORM</span>
                                 </h1>
-                                <p className='text-justify max-w-[520px]'>
+                                <p
+                                    data-aos='fade-up'
+                                    data-aos-delay='500'
+                                    className='text-justify max-w-[520px]'>
                                     Venez decouvrir le monde incroyable de la realite virtuelle. Plongee dans un tout nouvelle universe complemetement
                                     nouveau qui va vous faire retourner la tete avec ses nouvelles technologie de sensitivite
                                 </p>
                                 <div className='flex items-center gap-6'>
-                                    <button className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
+                                    <button
+                                        data-aos='fade-up'
+                                        data-aos-delay='600'
+                                        className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
                                         Get Started
                                     </button>
-                                    <button className='flex items-center gap-2'>
+                                    <button
+                                        data-aos='fade-up'
+                                        data-aos-delay='700'
+                                        className='flex items-center gap-2'>
                                         <BiPlayCircle className='text-3xl' />
                                         <span className='text-lg'>See Demo</span>
                                     </button>
