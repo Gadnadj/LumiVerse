@@ -14,22 +14,24 @@ const Banner = () => {
 
                         {/* text content section */}
                         <div className='space-y-5 lg:pr-20 relative'>
-                            <h1 className='text-4xl font-semibold'>
-                                GET READY TO ENJOY VR
-                                <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATFORM</span>
-                            </h1>
-                            <p className='text-justify max-w-[520px]'>
-                                Venez découvrir le monde incroyable de la réalité virtuelle. Plongez dans un tout nouvel univers complètement
-                                nouveau qui va vous faire tourner la tête avec ses nouvelles technologies de sensibilité.
-                            </p>
-                            <div className='flex items-center gap-6'>
-                                <button className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
-                                    Get Started
-                                </button>
-                                <button className='flex items-center gap-2'>
-                                    <BiPlayCircle className='text-3xl' />
-                                    <span className='text-lg'>See Demo</span>
-                                </button>
+                            <div className='relative z-10 space-y-5'>
+                                <h1 className='text-4xl font-semibold'>
+                                    GET READY TO ENJOY VR
+                                    <span className='bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary'> GAMES WITH OUR PLATFORM</span>
+                                </h1>
+                                <p className='text-justify max-w-[520px]'>
+                                    Venez découvrir le monde incroyable de la réalité virtuelle. Plongez dans un tout nouvel univers complètement
+                                    nouveau qui va vous faire tourner la tête avec ses nouvelles technologies de sensibilité.
+                                </p>
+                                <div className='flex items-center gap-6'>
+                                    <button className='bg-gradient-to-r from-primary to-secondary duration-300 hover:scale-110 rounded-full px-6 py-2'>
+                                        Get Started
+                                    </button>
+                                    <button className='flex items-center gap-2'>
+                                        <BiPlayCircle className='text-3xl' />
+                                        <span className='text-lg'>See Demo</span>
+                                    </button>
+                                </div>
                             </div>
 
                             {/* background color blob */}

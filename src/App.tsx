@@ -1,3 +1,4 @@
+import AppStore from './components/AppStore';
 import Banner from './components/Banner';
 import Banner2 from './components/Banner2';
 import Features from './components/Features';
@@ -16,6 +17,7 @@ function App() {
       <Banner />
       <Banner2 />
       <Features />
+      <AppStore />
     </main>
   );
 }
